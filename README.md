@@ -14,6 +14,7 @@ Working with Titanic dataset and multi objective GP. 🚢
 2. **Don't** use methods from [here](https://deap.readthedocs.io/en/master/api/algo.html). 
 
 3. Upload a single CSV file with predictions on `test.csv` for each Pareto optimal individual you unearth from the `train.csv` in separate columns. Reuse the preprocessed and folded data from the Titanic ML assignment.
+4. On DEAP when we look at the fitness of our MOGA, we use `individual.fitness.values` to see how fit our individuals are. We must assign it in the eval function/main loop. By taking in the individual itself, we modify/return the mutant. We must build the truth data so that we can pass features through/get predictions.
 
 ## 📢 Presentation Details
 
