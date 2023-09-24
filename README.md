@@ -18,8 +18,8 @@ Working with Titanic dataset and multi objective GP. 🚢
    | deap.algorithms.eaSimple(population, toolbox, cxpb, mutpb, ngen[, stats, halloffame, verbose])| A class:~deap.tools.Logbook with the statistics of the evolution  |
    |deap.algorithms.eaMuPlusLambda(population, toolbox, mu, lambda_, cxpb, mutpb, ngen[, stats, halloffame, verbose])| ^^ |
    |deap.algorithms.eaMuCommaLambda(population, toolbox, mu, lambda_, cxpb, mutpb, ngen[, stats, halloffame, verbose])| ^^|
-   |deap.algorithms.eaMuCommaLambda(population, toolbox, mu, lambda_, cxpb, mutpb, ngen[, stats, halloffame, verbose])| ^^|
-   |deap.algorithms.eaMuCommaLambda(population, toolbox, mu, lambda_, cxpb, mutpb, ngen[, stats, halloffame, verbose])|A list of varied individuals that are independent of their parents.|
+   |deap.algorithms.eaGenerateUpdate(toolbox, ngen[, stats, halloffame, verbose])| ^^|
+   |deap.algorithms.varAnd(population, toolbox, cxpb, mutpb)|A list of varied individuals that are independent of their parents.|
    |deap.algorithms.varOr(population, toolbox, lambda_, cxpb, mutpb)| The final population.|
    |class deap.cma.Strategy(centroid, sigma[, **kargs])[source]| |
    |class deap.cma.StrategyOnePlusLambda(parent, sigma[, **kargs])| |
